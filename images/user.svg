@@ -1,0 +1,16 @@
+<svg width="57" height="52" viewBox="0 0 57 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>user</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(524 189)" figma:type="canvas">
+<g id="user" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="user icon" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Shape" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path0_fill" transform="translate(-523.124 -188.574)" fill="#00D66C" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 27.8884 21.9205C 34.502 21.9205 39.8008 17.0249 39.8008 10.9602C 39.8008 4.89558 34.502 0 27.8884 0C 21.2749 0 15.9363 4.89558 15.9363 10.9602C 15.9363 17.0249 21.2749 21.9205 27.8884 21.9205ZM 27.8884 29.2273C 18.6056 29.2273 0 33.5018 0 42.0143L 0 51.1478L 55.7769 51.1478L 55.7769 42.0143C 55.7769 33.5018 37.1713 29.2273 27.8884 29.2273Z"/>
+</defs>
+</svg>

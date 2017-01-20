@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="30px" viewBox="0 0 31 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>ster_open</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Variatie-desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Landscape-Copy" transform="translate(-515.000000, -594.000000)">
+            <rect id="Rectangle-2" fill="#F3E5D8" x="0" y="499" width="1280" height="351"></rect>
+            <rect id="Rectangle-3" fill="#FFFFFF" x="42" y="533" width="1223" height="192" rx="14"></rect>
+            <g id="Group-2" transform="translate(185.000000, 594.000000)" fill="#2800A0">
+                <g id="Group-2-Copy" transform="translate(182.000000, 0.000000)">
+                    <g id="ic-star-border-24-px-copy-4" transform="translate(148.000000, 0.000000)">
+                        <g id="Group">
+                            <path d="M30.9166667,11.245 L19.8320833,10.2891667 L15.5,0.0833333333 L11.1679167,10.3045833 L0.0833333333,11.245 L8.50083333,18.5370833 L5.9725,29.375 L15.5,23.6245833 L25.0275,29.375 L22.5145833,18.5370833 L30.9166667,11.245 L30.9166667,11.245 Z M15.5,20.7416667 L9.70333333,24.24125 L11.245,17.6429167 L6.12666667,13.2029167 L12.8791667,12.6170833 L15.5,6.40416667 L18.13625,12.6325 L24.88875,13.2183333 L19.7704167,17.6583333 L21.3120833,24.2566667 L15.5,20.7416667 L15.5,20.7416667 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

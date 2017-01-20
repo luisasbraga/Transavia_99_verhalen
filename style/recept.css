@@ -1,0 +1,155 @@
+/*---------------------------------------------------------
+                        Fonts
+----------------------------------------------------------*/
+@font-face {
+	font-family: tarimtired;
+	src: url("../fonts/tarimtired.ttf");
+}
+/*---------------------------------------------------------
+                        Verhaal: Recept
+----------------------------------------------------------*/
+.recept section:nth-child(2){
+    background-color: #fff;
+    background-image: url(../images/Verhalen/recept/recept-07.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5em;
+    padding-bottom: 0;
+}
+
+.recept article:first-child{
+    margin-left:60%;
+    width: 40%;
+    height: 36em;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: none;
+    background-color: transparent;
+    margin-bottom: 10em;
+    font-family: "tarimtired"; 
+}
+
+.recept article:first-child::-webkit-scrollbar { 
+    display: none; 
+}
+
+
+.recept section:nth-child(2) h2{
+    color: black;
+    font-weight: 900;
+    font-size: 4em;
+    font-family: "tarimtired"; 
+}
+
+.recept section:nth-child(2) h3{
+    font-size: 1.5rem;
+    font-weight: 900;
+    border-bottom: 1.5rem solid black;
+    transform: rotateX(20deg) rotateY(40deg) skewX(25deg);
+    position: relative;
+    right: -1.5em;
+    margin: 2em 0 3em;
+}
+
+.recept section:nth-child(2) h4{
+    color: red;
+    font-weight: 700;
+    margin: .5em 0;
+}
+
+.recept section:nth-child(2) article p:nth-of-type(1){
+    font-size: 1.5em;
+    font-family: "tarimtired"; 
+    line-height: 1.5em;
+}
+
+.recept section:nth-child(2) article p{
+    margin: 1em 0;
+    font-family: "tarimtired"; 
+}
+/*---------------------------------------------------------
+                        Verhaal footer
+----------------------------------------------------------*/
+
+.recept section footer{
+    width: 100%;
+    margin: 0;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+/*---------------------------------------------------------
+                        MediaQueries
+----------------------------------------------------------*/
+@media screen and (max-width: 30em){
+    .recept article:first-child{
+        width: 90%;
+        margin: 0 2.5em;
+        height: 28.5em;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    
+    .recept section:nth-child(2) h2{
+        margin-top: 5.8em;
+        visibility: hidden;
+    }
+}
+
+
+
+/*tablet*/
+@media screen and (min-width: 45em){
+   .recept article:first-child {
+    height: 56.6em;
+    }
+    
+}
+
+@media screen and (min-width: 64em){
+   .recept article:first-child {
+    height: 78.6em;
+    }
+    
+}
+
+
+@media screen and (min-width: 70em){
+    .recept article:first-child{
+        margin-left: 68%;
+        width: 30%;
+    }
+    
+    
+}
+
+@media screen and (min-width: 90em){
+    .recept section:nth-child(2){
+        background-size: 66%;    
+    }
+    
+    .recept article:first-child{
+        width: 29%;
+        margin-left: 71%;
+        height:74em;
+    }
+    
+    .recept article:first-child p{
+        width: 70%;
+    }
+    
+    .recept article div{
+        overflow-y: scroll;
+    }
+
+    .recept article div::-webkit-scrollbar { 
+        display: none; 
+    }
+    
+    .recept > aside section{
+        justify-content: center;
+    }
+}

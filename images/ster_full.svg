@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="28px" viewBox="0 0 30 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>ster_full</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Variatie-desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Landscape" transform="translate(-344.000000, -583.000000)">
+            <rect id="Rectangle-2" fill="#F3E5D8" x="0" y="499" width="1280" height="351"></rect>
+            <rect id="Rectangle-3" fill="#FFFFFF" x="42" y="533" width="1223" height="192" rx="14"></rect>
+            <g id="Group-2" transform="translate(195.000000, 582.000000)" fill="#2800A0">
+                <g id="ic-star-border-24-px-copy-4" transform="translate(148.000000, 0.000000)">
+                    <g id="Group">
+                        <path d="M30.9166667,11.245 L19.8320833,10.2891667 L15.5,0.0833333333 L11.1679167,10.3045833 L0.0833333333,11.245 L8.50083333,18.5370833 L5.9725,29.375 L15.5,23.6245833 L25.0275,29.375 L22.5145833,18.5370833 L30.9166667,11.245 L30.9166667,11.245 Z M15.5,20.7416667 L9.70333333,24.24125 L11.245,17.6429167 L6.12666667,13.2029167 L12.8791667,12.6170833 L15.5,6.40416667 L18.13625,12.6325 L24.88875,13.2183333 L19.7704167,17.6583333 L21.3120833,24.2566667 L15.5,20.7416667 L15.5,20.7416667 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+            <g id="stras-full-copy-2" transform="translate(194.000000, 580.000000)">
+                <g id="ic-star-24-px-copy-5" transform="translate(148.000000, 1.000000)">
+                    <g id="Group">
+                        <path d="M0,0 L34,0 L34,34 L0,34 L0,0 Z" id="Shape"></path>
+                        <path d="M17,24.4658333 L25.755,29.75 L23.4316667,19.7908333 L31.1666667,13.09 L20.9808333,12.2258333 L17,2.83333333 L13.0191667,12.2258333 L2.83333333,13.09 L10.5683333,19.7908333 L8.245,29.75 L17,24.4658333 Z" id="Shape" fill="#2800A0"></path>
+                        <path d="M0,0 L34,0 L34,34 L0,34 L0,0 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

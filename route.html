@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Toeristische route</title>
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/route.css">
+        <script src="https://use.fontawesome.com/0ccb23d3b9.js"></script>      
+    </head>
+    
+    <body class="route">
+      
+       <!-- header -->
+		<header class="header">
+			<!-- navigation -->
+			<nav>
+				<ul>
+					<li>
+						<a href="index.html">
+                            <img src="images/menu.svg" alt="Ga naar overzichtspagina">
+						    <span>
+						        Verhalen
+						    </span>
+				        </a>
+					</li>
+					<li>
+						<img alt="Transavia logo" src="images/transavia-logo.png">
+					</li>
+					<li>
+						<a href="#">
+                        <img src="images/user.svg" alt="Log in hier">
+						    <span>
+						        Inloggen/registreren
+						    </span>
+				        </a>
+					</li>
+				</ul>
+			</nav>
+			
+			<!-- Form: log in -->
+			<form action="#">
+				<fieldset>
+					<legend>Inloggen
+					</legend> 
+					<label for="email1">
+					    E-mailadres:
+					</label> 
+					<input id="email1" name="email" placeholder="vakantie@transavia.nl" required="" type="email"> 
+					<label for="password1">
+					    Wachtwoord:
+					</label> 
+					<input id="password1" name="password" placeholder="******" required="" type="password"> 
+					<button onclick="window.location.href='ingelogd.html'">
+					    Inloggen
+					</button>
+					<div>
+						<a class="forgotPass" href="#">
+						    Wachtwoord vergeten?
+						</a> 
+						<a class="newAccount" href="#">
+						    Een account aanmaken?
+						</a>
+					</div>
+				</fieldset>
+			</form>
+			
+			<!-- Form: Forgot Password? -->
+			<form action="#">
+				<fieldset>
+					<legend>
+					    Wachtwoord vergeten?
+					</legend> 
+					<label for="email3">
+				        E-mailadres:
+					</label> 
+					<input id="email3" name="email" placeholder="vakantie@tansavia.com" required="" type="email">
+					<div>
+						<button>Wachtwoord aanvragen
+						</button> <button class="backW">
+						    Terug
+						</button>
+					</div>
+				</fieldset>
+			</form>
+			
+			<!-- Form: Sing up -->
+			<form action="#">
+				<fieldset>
+					<legend>Registreren
+					</legend> 
+					<label for="name">
+					    Naam:
+					</label> 
+					<input id="name" name="name" placeholder="Transavia" required="" type="text"> 
+					<label for="email2">
+					    E-mailadres:
+					</label> 
+					<input id="email2" placeholder="vakantie@transavia.com" required="" type="email"> 
+					<label for="password2">
+					    Wachtwoord:
+					</label> 
+					<input id="password2" placeholder="******" required="" type="password"> 
+					<label for="password3">
+					    Herhaal wachtwoord:
+					</label> 
+					<input id="password3" name="password" placeholder="******" required="" type="password">
+					<div>
+						<button>
+						    Registreren
+						</button> 
+						<button class="backR">
+						    Terug
+						</button>
+					</div>
+				</fieldset>
+			</form>
+		</header>
+       
+        <!-- Verhaal: Toeristische route -->
+        <section>
+            <div>
+            </div>
+
+            <footer>
+                <p>
+                   Gepost op: 
+                       <time>    
+                           2011-06-07
+                       </time> 
+                </p>
+                <p>
+                    Schrijver: Molovich
+                </p>
+                <p>
+                    Designer: Luisa Braga
+                </p>
+            </footer>
+        </section>
+        
+        <!-- verhaal waarderen -->
+        <aside>
+              <h3>
+                   Beoordeel dit verhaal:
+               </h3>
+               <form action="#">
+                <fieldset>
+                    <legend>
+                        Beoordeling
+                    </legend>
+                    <div class="rating">
+                        <input type='radio' name='rate' id='rating_opt1'>	
+                        <label for='rating_opt1'>
+                            <span>
+                                uitstekend
+                            </span>
+                        </label>
+                        <input type='radio' name='rate' id='rating_opt2'>
+                        <label for='rating_opt2'>
+                            <span>
+                                Geweldig
+                            </span>
+                        </label>
+                        <input type='radio' name='rate' id='rating_opt3'>
+                        <label for='rating_opt3'>
+                            <span>
+                                Een aanrader
+                            </span>
+                        </label>
+                        <input type='radio' name='rate' id='rating_opt4'>
+                        <label for='rating_opt4'>
+                            <span>
+                                Erg Goed
+                            </span>
+                        </label>
+                        <input type='radio' name='rate' id='rating_opt5'>
+                        <label for='rating_opt5'>
+                            <span>
+                                Interessant
+                           </span>
+                        </label>
+                        <input type='radio' name='rate' id='rating_opt6'>	
+                        <label for='rating_opt6'>
+                            <span>
+                                Goed
+                            </span>
+                        </label>
+                        <input type='radio' name='rate' id='rating_opt7'>
+                        <label for='rating_opt7'>
+                            <span>
+                                matig
+                            </span>
+                        </label>
+                        <input type='radio' name='rate' id='rating_opt8'>
+                        <label for='rating_opt8'>
+                            <span>
+                                Slecht
+                            </span>
+                        </label>
+                        <input type='radio' name='rate' id='rating_opt9'>
+                        <label for='rating_opt9'>
+                            <span>
+                                Erg slecht
+                            </span></label>
+                        <input type='radio' name='rate' id='rating_opt10'>
+                        <label for='rating_opt10'>
+                            <span>
+                                Verschrikkelijk
+                            </span>
+                        </label>
+	                </div>
+                   <textarea cols="50" rows="10" placeholder="Schrijf hier uw mening over dit verhaal"></textarea>
+                   <button>
+                       Verzenden
+                   </button>
+                </fieldset>
+            </form>
+               
+            <!-- Reactie achter laten  -->
+            <section>
+                <h3>
+                    Reacties:
+                </h3>
+                <article> 
+                   <img src="images/ic%20account%20circle%2018%20px.svg" alt="Reactie van Jan willem">
+                   <p>
+                       Jan Willem
+                   </p>
+                    <time>
+                        2016-11-22
+                    </time>
+                    <p>
+                        Er fijn en grappig gedicht
+                    </p>
+                </article>
+
+                <article> 
+                  <img src="images/ic%20account%20circle%2018%20px.svg" alt="Reactie van Emma">
+                   <p>
+                       Emma
+                   </p>
+                   <time>
+                       2016-11-20
+                   </time>
+                   <p>
+                       Erg grappig gedicht zeker een aanrader
+                   </p>
+                </article>
+
+                <article> 
+                 <img src="images/ic%20account%20circle%2018%20px.svg" alt="Reactie van Geerda">
+                  <p>
+                      Geerda
+                  </p>
+                   <time>
+                       2016-11-20
+                   </time>
+                    <p>
+                        Zeker een aanrader
+                    </p>
+                </article>
+            </section>
+        </aside>
+        
+    <!-- Section: aanbevolen -->
+		<section>
+			<h2>
+				Aanbevolen
+			</h2>
+
+			<article>
+				<a href="#"><img alt="Six words story" src="images/Verhalen/aanbevolen/6-words.jpg">
+                    <aside>
+                        <p>
+                            Komedie
+                        </p>
+                        <p>
+                            5 regels
+                        </p>
+                        <p>
+                            <time>
+                                2011-07-04
+                            </time>
+                        </p>
+                    </aside>
+                    <h4>
+                        Six words story
+                    </h4>
+				</a> 
+				<button>
+				    Later lezen
+				</button>
+				<p>
+					Noot vooraf: de heer Nico Dijkshoorn hecht eraan te melden dat hij … 
+					<a href="#">
+					    Lees verder
+					</a>
+				</p>
+			</article>
+
+			<article>
+				<a href="#"><img alt="Six words story" src="images/Verhalen/aanbevolen/6-words.jpg">
+                    <aside>
+                        <p>
+                            Komedie
+                        </p>
+                        <p>
+                            5 regels
+                        </p>
+                        <p>
+                            <time>
+                                2011-07-04
+                            </time>
+                        </p>
+                    </aside>
+                    <h4>
+                        Six words story
+                    </h4>
+				</a> 
+				<button>
+				    Later lezen
+				</button>
+				<p>
+					Noot vooraf: de heer Nico Dijkshoorn hecht eraan te melden dat hij … 
+					<a href="#">
+					    Lees verder
+					</a>
+				</p>
+			</article>
+
+			<article>
+				<a href="#"><img alt="Six words story" src="images/Verhalen/aanbevolen/6-words.jpg">
+                    <aside>
+                        <p>
+                            Komedie
+                        </p>
+                        <p>
+                            5 regels
+                        </p>
+                        <p>
+                            <time>
+                                2011-07-04
+                            </time>
+                        </p>
+                    </aside>
+                    <h4>
+                        Six words story
+                    </h4>
+				</a> 
+				<button>
+				    Later lezen
+				</button>
+				<p>
+					Noot vooraf: de heer Nico Dijkshoorn hecht eraan te melden dat hij … 
+					<a href="#">
+					    Lees verder
+					</a>
+				</p>
+			</article>
+			
+			<article>
+				<a href="#"><img alt="Six words story" src="images/Verhalen/aanbevolen/6-words.jpg">
+                    <aside>
+                        <p>
+                            Komedie
+                        </p>
+                        <p>
+                            5 regels
+                        </p>
+                        <p>
+                            <time>
+                                2011-07-04
+                            </time>
+                        </p>
+                    </aside>
+                    <h4>
+                        Six words story
+                    </h4>
+				</a> 
+				<button>
+				    Later lezen
+				</button>
+				<p>
+					Noot vooraf: de heer Nico Dijkshoorn hecht eraan te melden dat hij … 
+					<a href="#">
+					    Lees verder
+					</a>
+				</p>
+			</article>
+		</section>
+		
+		<!-- Footer -->
+		<footer>
+			<small>
+			    &copy; 2016 Luisa Braga
+			</small>
+		</footer>
+		
+		<script src="js/script.js">
+		</script>
+	</body> 
+</html>

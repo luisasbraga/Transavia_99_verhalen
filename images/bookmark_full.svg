@@ -1,0 +1,12 @@
+<svg width="50" height="90" viewBox="0 0 50 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Subtract</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-177 350)" figma:type="canvas">
+<g id="Subtract" style="mix-blend-mode:normal;" figma:type="vector-operation">
+<use xlink:href="#path0_fill" transform="translate(177 -350)" fill="#2800A0" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 50 0L 0 0L 0 90L 1.01204 90L 25 70.8333L 48.988 90L 50 90L 50 0Z"/>
+</defs>
+</svg>

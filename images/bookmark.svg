@@ -1,0 +1,19 @@
+<svg width="50" height="90" viewBox="0 0 50 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Subtract</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-71 350)" figma:type="canvas">
+<g id="Subtract" style="mix-blend-mode:normal;" figma:type="vector-operation">
+<use xlink:href="#path0_fill" transform="translate(71 -350)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(71 -350)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(71 -350)" fill="#2800A0" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 50 0L 0 0L 0 90L 1.01204 90L 25 70.8333L 48.988 90L 50 90L 50 0Z"/>
+<path id="path1_stroke_2x" d="M 0 0L 0 -2L -2 -2L -2 0L 0 0ZM 50 0L 52 0L 52 -2L 50 -2L 50 0ZM 0 90L -2 90L -2 92L 0 92L 0 90ZM 1.01204 90L 1.01204 92L 1.71292 92L 2.26049 91.5625L 1.01204 90ZM 25 70.8333L 26.2484 69.2709L 25 68.2733L 23.7516 69.2709L 25 70.8333ZM 48.988 90L 47.7395 91.5625L 48.2871 92L 48.988 92L 48.988 90ZM 50 90L 50 92L 52 92L 52 90L 50 90ZM 0 2L 50 2L 50 -2L 0 -2L 0 2ZM 2 90L 2 0L -2 0L -2 90L 2 90ZM 1.01204 88L 0 88L 0 92L 1.01204 92L 1.01204 88ZM 2.26049 91.5625L 26.2484 72.3958L 23.7516 69.2709L -0.236409 88.4375L 2.26049 91.5625ZM 23.7516 72.3958L 47.7395 91.5625L 50.2364 88.4375L 26.2484 69.2709L 23.7516 72.3958ZM 50 88L 48.988 88L 48.988 92L 50 92L 50 88ZM 48 0L 48 90L 52 90L 52 0L 48 0Z"/>
+</defs>
+</svg>

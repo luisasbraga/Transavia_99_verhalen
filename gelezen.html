@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Gelezen verhalen</title>
+        <link rel="stylesheet" href="style/style.css">     
+    </head>
+    
+    <body>
+        
+        <!-- header -->
+        <header class="header">
+          
+           <!-- navigation -->
+            <nav>
+                <ul>
+                    <li>
+                        <a href="ingelogd.html">
+                                <img src="images/menu.svg" alt="Ga naar overzichtspagina">
+                                <span>
+                                    Verhalen 
+                                </span>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="images/transavia-logo.png" alt="Transavia logo">
+                    </li>
+                    <li>
+                       <a href="#">
+                              <img src="images/user.svg" alt="Account">
+                               <span>
+                                   Welkom Luisa
+                               </span>
+                       </a>
+                    </li>
+                </ul>
+            </nav>
+            
+             <!-- navigation account -->
+             <nav>
+               <ul>
+                    <li>
+                        Welkom Luisa
+                    </li>
+                     <li>
+                         <a href="opegeslagen.html">
+                             Opgeslagen vehalen
+                         </a>
+                     </li>
+                     <li>
+                         <a href="gelezen.html">
+                             Gelezen verhalen
+                         </a>
+                     </li>
+                     <li>
+                         <a href="index.html">
+                             Uitloggen
+                         </a>
+                     </li>
+                 </ul>
+             </nav>
+                          
+             <div>
+               <h1>
+                   99 Verhalen
+               </h1>
+            </div>            
+        </header>
+        
+<!-- Main -->
+		<main>
+			<h2>
+				Welke verhaal wil je lezen?
+			</h2>
+			
+			<!-- Filter en sorteer-->
+			<aside>
+				<h3>
+					Uw keuze
+				</h3>
+
+				<form action="#">
+					<button>
+					    Filter
+					</button> 
+					<select>
+						<option data-type="all" selected="selected">
+							Sorteren op:
+						</option>
+						<option data-filter=".new">
+							Meest recent
+						</option>
+						<option data-filter=".Az">
+							Alfabetisch A_Z
+						</option>
+						<option data-filter=".za">
+							Alfabetisch Z_A
+						</option>
+						<option data-filter=".high">
+							Meest gewaardeerd
+						</option>
+						<option data-filter=".short">
+							Kortste verhalen
+						</option>
+						<option data-filter=".long">
+							Langste verhalen
+						</option>
+					</select>
+					
+					<fieldset>
+						<h4>
+							Filter:
+						</h4>
+						<div>
+							<div>
+								<fieldset>
+									<legend>
+									    Genre
+									</legend> 
+									<input id="comedy" type="checkbox"> 
+									<label for="comedy">
+									    Komedie (34)
+									</label> <input id="art" type="checkbox"> 
+									<label for="art">
+									    Kunst (22)
+									</label> 
+									<input id="politic" type="checkbox"> 
+									<label for="politic">
+									    Politiek (43)
+									</label>
+								</fieldset>
+							</div>
+
+							<div>
+								<fieldset>
+									<legend>
+									    Lengte
+									</legend> 
+									<input id="small" type="checkbox"> 
+									<label for="small">
+									    Tot 15 regels (12)
+									</label> 
+									<input id="medium" type="checkbox"> 
+									<label for="medium">
+									    51 tot 150 regels (40)
+									</label> 
+									<input id="big" type="checkbox"> 
+									<label for="big">
+									    Meer dan 150 regels (47)
+									</label>
+								</fieldset>
+							</div>
+
+							<div>
+								<fieldset>
+									<legend>
+									    Gewaardeerd
+									</legend> 
+									<input id="good" type="checkbox"> 
+									<label for="good">
+									    1_4 sterren (23)
+									</label> 
+									<input id="better" type="checkbox"> 
+									<label for="better">
+									    5_7 sterren (65)
+									</label> 
+									<input id="best" type="checkbox"> 
+									<label for="best">
+									    8_10 sterren (11)
+									</label>
+								</fieldset>
+							</div>
+							
+						</div>
+						<button>
+						    Sluiten
+						</button>
+					</fieldset>
+				</form>
+			</aside>
+			
+			<!-- Stories -->
+			<div>
+				<p>
+					99 Verhalen
+				</p>
+
+				<article>
+					<a href="recept%20_inlog.html">
+					    <img alt="Recept" src="images/Verhalen/recept/recept-07.svg">
+					    <aside>
+						    <p>
+							    Kunst
+						    </p>
+						    <p>
+							    106 regels
+						    </p>
+						    <p>
+							    <time>
+							        2011-07-12
+							    </time>
+						    </p>
+					    </aside>
+                        <h4>
+                            Recept
+                        </h4>
+					</a>
+					<button>
+					    Later lezen
+					</button>
+					<p>
+						Dit gerecht is vrij eenvoudig te maken. Ideaal op een doordeweekse dag als ... 
+						<a href="recept.html">
+						    Lees verder
+						</a>
+					</p>
+				</article>
+
+				<article>
+					<a href="zombie%20_inlog.html">
+                        <img alt="Zombie" src="images/Verhalen/zombie/zombie-10.jpg">
+                        <aside>
+                            <p>
+                                Kunst
+                            </p>
+                            <p>
+                                50 regels
+                            </p>
+                            <p>
+                                <time>
+                                    2011-07-12
+                                </time>
+                            </p>
+                        </aside>
+                        <h4>
+                            Zombie
+                        </h4>
+                    </a> 
+                    <button>
+                        Later lezen
+                    </button>
+					<p>
+						Duizenden hongerige ondoden lopen zielloos over het stationsplein. Op ... 
+						<a href="zombie.html">
+						    Lees verder
+						</a>
+					</p>
+				</article>
+
+				<article>
+					<a href="route%20_inlog.html">
+					    <img alt="Toeristische route" src="images/Verhalen/route/route-01.png">
+                        <aside>
+                            <p>
+                                Komedie
+                            </p>
+                            <p>
+                                5 regels
+                            </p>
+                            <p>
+                                <time>
+                                    2011-07-06
+                                </time>
+                            </p>
+                        </aside>
+                        <h4>
+                            Toeristische route
+                        </h4>
+					</a> 
+					<button>
+					    Later lezen
+					</button>
+					<p>
+						Als u naar links kijkt, ziet u het Centraal Station. Gebouwd tussen 1881 en ... 
+						<a href="route.html">
+						    Lees verder
+						</a>
+					</p>
+				</article>
+
+				<article>
+					<a href="#">
+                        <img alt="Six words story" src="images/Verhalen/aanbevolen/6-words.jpg">
+                        <aside>
+                            <p>
+                                Komedie
+                            </p>
+                            <p>
+                                5 regels
+                            </p>
+                            <p>
+                                <time>
+                                    2011-07-04
+                                </time>
+                            </p>
+                        </aside>
+                        <h4>
+                            Six words story
+                        </h4>
+					</a> 
+					<button>
+					    Later lezen
+					</button>
+					<p>
+						Noot vooraf: de heer Nico Dijkshoorn hecht eraan te melden dat hij ... 
+						<a href="#">
+						    Lees verder
+						</a>
+					</p>
+				</article>
+
+				<article>
+					<a href="#"><img alt="" src="images/Verhalen/verrassing.jpg">
+                        <aside>
+                            <p>
+                                Komedie
+                            </p>
+                            <p>
+                                5 regels
+                            </p>
+                            <p>
+                                <time>
+                                    2011-07-04
+                                </time>
+                            </p>
+                        </aside>
+
+                        <h4>
+                            Verrassing
+                        </h4>
+					</a> 
+					<button>
+					    Later lezen
+					</button>
+					<p>
+						Noot vooraf: de heer Nico Dijkshoorn hecht eraan te melden dat hij onderstaande ... 
+						<a href="#">
+						    Lees verder
+						</a>
+					</p>
+				</article>
+            </div>
+        </main>
+        
+       <!-- Section: aanbevolen -->
+		<section>
+			<h2>
+				Aanbevolen
+			</h2>
+
+			<article>
+				<a href="#"><img alt="Six words story" src="images/Verhalen/aanbevolen/6-words.jpg">
+                    <aside>
+                        <p>
+                            Komedie
+                        </p>
+                        <p>
+                            5 regels
+                        </p>
+                        <p>
+                            <time>
+                                2011-07-04
+                            </time>
+                        </p>
+                    </aside>
+                    <h4>
+                        Six words story
+                    </h4>
+				</a> 
+				<button>
+				    Later lezen
+				</button>
+				<p>
+					Noot vooraf: de heer Nico Dijkshoorn hecht eraan te melden dat hij … 
+					<a href="#">
+					    Lees verder
+					</a>
+				</p>
+			</article>
+
+			<article>
+				<a href="#"><img alt="Six words story" src="images/Verhalen/aanbevolen/6-words.jpg">
+                    <aside>
+                        <p>
+                            Komedie
+                        </p>
+                        <p>
+                            5 regels
+                        </p>
+                        <p>
+                            <time>
+                                2011-07-04
+                            </time>
+                        </p>
+                    </aside>
+                    <h4>
+                        Six words story
+                    </h4>
+				</a> 
+				<button>
+				    Later lezen
+				</button>
+				<p>
+					Noot vooraf: de heer Nico Dijkshoorn hecht eraan te melden dat hij … 
+					<a href="#">
+					    Lees verder
+					</a>
+				</p>
+			</article>
+
+			<article>
+				<a href="#"><img alt="Six words story" src="images/Verhalen/aanbevolen/6-words.jpg">
+                    <aside>
+                        <p>
+                            Komedie
+                        </p>
+                        <p>
+                            5 regels
+                        </p>
+                        <p>
+                            <time>
+                                2011-07-04
+                            </time>
+                        </p>
+                    </aside>
+                    <h4>
+                        Six words story
+                    </h4>
+				</a> 
+				<button>
+				    Later lezen
+				</button>
+				<p>
+					Noot vooraf: de heer Nico Dijkshoorn hecht eraan te melden dat hij … 
+					<a href="#">
+					    Lees verder
+					</a>
+				</p>
+			</article>
+			
+			<article>
+				<a href="#"><img alt="Six words story" src="images/Verhalen/aanbevolen/6-words.jpg">
+                    <aside>
+                        <p>
+                            Komedie
+                        </p>
+                        <p>
+                            5 regels
+                        </p>
+                        <p>
+                            <time>
+                                2011-07-04
+                            </time>
+                        </p>
+                    </aside>
+                    <h4>
+                        Six words story
+                    </h4>
+				</a> 
+				<button>
+				    Later lezen
+				</button>
+				<p>
+					Noot vooraf: de heer Nico Dijkshoorn hecht eraan te melden dat hij … 
+					<a href="#">
+					    Lees verder
+					</a>
+				</p>
+			</article>
+		</section>
+		
+		<!-- Footer -->
+		<footer>
+			<small>
+			    &copy; 2016 Luisa Braga
+			</small>
+		</footer>
+		
+		<script src="js/script.js">
+		</script>
+		<script src="js/ingelogd.js">
+		</script>
+	</body>
+</html>
